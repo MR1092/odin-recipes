@@ -6,7 +6,7 @@ body {
     background-color: bisque;
 }
 
-h1 {
+.header {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 50px;
@@ -15,11 +15,61 @@ h1 {
 
 img {
     flex: auto;
+    border-radius: 20px;
+    margin: 0px 20px 20px 150px;
+    height: auto;
+    width: 600px;
     
 }
 
-h3 {
+.text {
     text-align: center;
-    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 25px 0px 40px 0px;
+}
+
+.recipes {
+    text-align: center;
+    background-color: white;
+    flex: auto;
+    width: 600px;
+    border-radius: 20px;
+    margin: 0px 20px 20px 150px;
+    font-size: 20px;
+}
+
+ol.list-style {
+    list-style-type: square;
+    background-color: white;
+    border-radius: 20px;
+}
+
+ol li {
+    color: bisque;
+    padding: 10px;
+}
+
+li:first-child:hover {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+li:nth-child(2):hover {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+li:nth-child(3):hover {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+li:nth-child(4):hover {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+li:nth-child(5):hover {
+    font-weight: 900;
     text-transform: uppercase;
 }
