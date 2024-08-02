@@ -11,22 +11,66 @@ body {
     height: 800px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 20px;
+    margin: 0 20px;
+}
+
+div.nav-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a{
+    padding: 10px;
+    color: black;
+
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+
+}
+
 h1 {
     text-align: center;
 }
 
 .header {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 800;
 }
 
 div.butter-img {
     display: block;
-    width: 600px;
-    height: 450px;
+    width: 700px;
+    height: 400px;
     margin: 0 auto;
 }
 
 img {
     border-radius: 20px;
+}
+
+
+div.small-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+h4 {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    
 }
