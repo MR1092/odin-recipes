@@ -1,64 +1,103 @@
 * {
-    box-sizing: border-box;
+    background-color: rgba(235, 218, 173, 0.973);
     color: black;
-    background-color: bisque;
+    border-radius: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
 }
 
 nav {
     display: flex;
     justify-content: right;
-    padding: 15px;
+    padding: 20px 0 20px 20px;
+    margin: 0 20px;
+}
+
+div.nav-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(126, 102, 57);
+}
+
+nav a{
+    padding: 10px;
+    color: black;
+    background-color: rgb(126, 102, 57);
 
 }
 
 nav a:hover {
     text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+
 }
 
+h1.header {
+    margin: 10px 20px;
+}
 
 .header {
+    background-color: rgb(126, 102, 57);
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 42px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 800;
 }
 
 img {
-    flex: auto;
-    border-radius: 20px;
-    margin: 0px 20px 20px 150px;
+    display: block;
     height: 450px;
     width: 600px;
+    margin: 0 auto;
+    border-radius: 40px;
     
 }
 
+.container-img {
+    box-sizing: border-box;
+    margin: 0 20px;
+    padding: 15px;
+    
+}
+
+h3.text {
+    margin: 20px;
+}
+
 .text {
-    text-align: center;
     text-transform: uppercase;
-    margin: 25px 0px 40px 0px;
+    background-color: rgb(126, 102,57);
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+div.recipes {
+    margin: 20px;
+
 }
 
 .recipes {
     text-align: center;
-    background-color: white;
-    flex: auto;
-    width: 600px;
-    border-radius: 20px;
-    margin: 0px 20px 20px 150px;
     font-size: 20px;
 }
 
 ol.list-style {
-    list-style-type: square;
-    background-color: white;
+    list-style-type: circle;
     border-radius: 20px;
+
 }
 
 ol li {
     padding: 12px;
-    background-color: white;
-    border-radius: 20px;
 }
 
 li:first-child:hover {
